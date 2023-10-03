@@ -1,0 +1,14 @@
+.photo-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px; /* не могу понять почему не работает гап вроде все верно сделал но расстояние не меняется*/
+  margin: 92px 48px;
+}
+@media screen and(max-width:1024px) {
+  .photo-grid{
+    gap: 14px;
+    max-width: 928px;
+  }
+
+
+}

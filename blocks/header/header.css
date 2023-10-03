@@ -1,0 +1,27 @@
+.header{
+  max-width:1184px;
+  flex-shrink: 0;
+  color: #FFFFFF;
+  margin: 28px 24px  ;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 auto;
+  padding: 28px 48px 0;
+
+  }
+
+  @media screen and(max-width:1023) {
+    .header{
+      max-width: 928px ;
+    }
+
+  }
+
+  @media screen and(max-width:767px){
+    .header{
+      max-width: 720px;
+     
+    }
+  }
+

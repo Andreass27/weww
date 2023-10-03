@@ -1,0 +1,13 @@
+.header__list{
+  display: flex;
+  padding: 0 18px 0 0;
+
+}
+
+@media screen and (max-width: 767px) {
+  .header__list {
+    padding-right: 0;
+
+  }
+}
+/* Димас не могу переместить на право ссылки, нужна микро помощь */

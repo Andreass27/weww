@@ -1,0 +1,18 @@
+.intro{
+  max-width: 690px;
+  flex-shrink: 0;
+  margin: 0 148px 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    max-width:720px ;
+  }
+}
+/* ставлю 720px но ничего не меняется */
